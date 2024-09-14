@@ -1,0 +1,432 @@
+*{
+    padding: 0;
+    margin: 0;
+    border:border-box;
+}
+.nav{
+    position: relative;
+    background-color: black;
+    height: 60px;
+    padding: 5px 15px 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.address ,.Returns ,.sign-in,.custom-select,.cart{
+    padding: 10px 10px;
+    cursor: pointer;
+}
+.searchbars{
+    margin-right: 200px;
+}
+#searchbar{
+    width: 100%;
+    border: none;
+   
+    padding: 10px 10px 10px 10px;
+    font-size: 1rem;
+    
+}
+.nav-search{
+    width: 850px;
+    height: 40px;
+    background-color: palevioletred;
+    display: flex;
+    border-radius: 4px;
+}
+.nav-search:hover{
+    border: rgba(255, 183, 0, 0.905) solid 2px;
+    background-color: #f58e07;
+}
+#search-icon{
+    display: flex;
+    width:50px;
+    background-color:#febd69;
+    justify-content: center ;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; 
+    padding: 10px 10px;
+    
+}
+.custom-select {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    background-color: #000000;
+    padding: 5px 10px;
+    border-radius: 4px;
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.flag-icon {
+    width: 20px;
+    height: 15px;
+    margin-right: 8px;
+}
+#options{
+    width:55px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    background-color: #ece7e7;
+}
+#addfirst{
+    font-size: 0.85rem;
+    color: #ccc;
+    margin-left: 15px;
+    
+}
+#addsec{
+    font-size: 1em;
+    margin-left: 5px;
+}
+.add-icon{
+display:flex;
+}
+#logo img{
+height: 50px;
+width: 100px;
+object-fit: cover;
+}
+.nav-font-highweight{
+    font-weight: 700;   
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.85rem;
+}
+.nav-font-lowweight{
+    font-weight: 600;
+    font-size: 0.75rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart i{
+    font-size: 1.5rem;
+    width: 50px;
+}
+.panel{
+    height:40px;
+    padding-left: 15px;
+    background-color:#131921;
+    display: flex;
+    color: white;
+    align-items: center;
+    font-weight: 700;
+}
+.panelelements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    width: 80%;
+    justify-content: left
+}
+.panelelements p{
+    padding: 7px 10px 7px 7px;
+    font-size: 16px;
+    display: inline-flex;
+    cursor: pointer;
+}
+.menu-container {
+    display: inline-flex;
+    align-items: center;
+    background-color:#131921; 
+    padding: 5px 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.hamburger-icon {
+    font-size: 18px;
+    margin-right: 8px;
+}
+.shopdeals{
+    padding: 7px 10px;
+    font-weight: 700;
+    font-size: 16px;
+}
+.border:hover {
+        border: 1px solid white;
+    }
+#herosection{
+    background: linear-gradient(
+    to bottom,
+    rgba(213, 204, 204, 0) 0%,
+    rgba(211, 202, 202, 0.8) 60%,
+    rgba(211, 202, 202, 1) 100%
+  ), url('Images/bgimage.jpg');
+    background-size:contain;
+    height:auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(222, 21, 21);
+}
+ #leftbutton{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+#rightbutton{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+} 
+.buttonbg{
+    height: 265px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.slidebutton{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    width:48%;
+    height:100%;
+    padding: 5px;
+
+}
+.slidebutton button{
+    height: 100%;
+    width: 10%;
+    background: transparent;
+    cursor: pointer;
+    border: transparent;
+}
+
+.slidebutton button:hover{
+    border:rgb(15, 148, 148) 2px solid;
+    outline: #ffffff solid 2px;
+}
+.slidebutton i{
+    font-size: 3rem;
+}
+
+.herocontainers{
+    display: flex;
+    align-items: flex-end; 
+}
+.content{
+display: flex;
+flex-wrap: wrap;
+justify-content:space-evenly;
+height: auto;
+width: 100%;
+}
+.box{
+    background-color: white;
+    padding: 10px 10px;
+    margin: 10px 5px;
+    height:420px;
+    width: 22%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.box p{
+    width: 100%;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 700;
+}
+.box figure {
+    width: 45%;
+    height: 40%;
+    padding: 5px 5px;;
+    cursor: pointer;
+}
+.box img {
+    width: 100%; 
+    height: 75%; 
+    object-fit: cover; 
+    cursor: pointer;
+}
+.box a{
+    color: rgb(6, 91, 63);
+    width: 100%;
+}
+.box a:hover{
+    color: rgb(195, 156, 14);
+}
+
+.contentbar{
+    width: 100%;
+    height:250px;
+    background-color: white;
+    margin: 10px 20px;
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    
+}
+ .slider-button-left{
+    position: absolute;
+    left: 0; 
+    top: 50%; 
+    transform: translateY(-50%);
+    height: 120px;
+    width: 50px;
+    background-color: white;
+    opacity: 0.5;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin: 10px;
+}
+
+.slider-button-right {
+    position: absolute;
+    right: 0; 
+    top: 50%; 
+    transform: translateY(-50%);
+    height: 120px;
+    width: 50px;
+    background-color: white;
+    opacity: 0.5;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin: 10px;
+}
+.slider-button-right:hover,.slider-button-left:hover{
+    opacity: 0.8;
+}
+.product-container img{
+    height: 190px;
+    width: auto;
+    margin: 10px;
+}
+.product-container{
+    height: 100%;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-self: center;
+    overflow-x: scroll; 
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    padding: 10px;
+}
+#backtop{
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#37475a;
+    width: 100%;
+    
+}
+#backtop a{
+    text-decoration: none;
+    color: w;
+    color: #d5cfcf;
+    cursor: pointer;
+}
+.footer{
+    height:auto;
+    width: 100%;
+    background-color: #232f3e;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+}
+.smallbox{
+    height: 250px;
+    color: white;
+    padding: 60px 15px 0px 15px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.colspace{
+    width: 100px;
+    height: 290px;
+    padding: 0px 10px;
+}
+.address-bar{
+    width: 100%;
+    height: 75px;
+    margin: 10px 140px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-top: #131921 solid 1px;
+    color: white;
+}
+#language-select{
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    border: none;
+    cursor: pointer;
+}
+.address-bar div{
+    width: 10%;
+    height: 40%;
+    border: #d3cccc solid 1px;
+    margin: 20px;
+    font-size: 14px;
+    font-weight: 200;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.adresses-links{
+    width: 100%;
+    height: 450px;
+    padding: 0px 270px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color:white;
+}
+.very_small_box{
+    height: 80px;
+    width: 75px;
+    padding: 0px 10px;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.very_small_box:hover{
+    text-decoration: underline;
+}
+.very_small_box span {
+    font-weight: bold; 
+  }
+  
+.colspace2{
+    height: 70px;
+    width: 15px;
+    padding: 5px;
+}
+.copyright{
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.copyright a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 10px;
+}
+.copyright a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.copyright p{
+    
+}
